@@ -1,0 +1,72 @@
+.profile-body{
+        background-image: url(../images/background.png);
+        padding:4%;
+        height: 100vh;
+}
+
+.card-avatar-img{
+    width: 30%;
+}
+
+.card{
+    opacity: 0.99;
+}
+
+.confirm-modal,.navigate-modal{
+    top:25%;
+    left:25%;
+}
+
+.voted-party{
+    color:green;
+    font-size: 1rem;
+}
+
+.profile-head{
+    color:green;
+    font-weight: 700;
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+
+.profile-lead-text{
+    color:orange;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.profile-third-text{
+    color:white;
+}
+
+.profile-instructions{
+    visibility: hidden;
+}
+
+.profile-instructions1,.profile-instructions2{
+    display: flex;
+    justify-content:flex-end;
+}
+.profile-instructions1 > p > img{
+    width:15%;    
+}
+
+.profile-instructions1 > p{
+    margin-right:-7%;
+    margin-top: -3%;
+ 
+}
+
+.profile-instructions2 > p{
+    margin-right:12%;
+    margin-top: -1%;
+    color: white;
+}
+
+
+@media only screen and (min-width:992px){
+    .profile-instructions{
+        visibility: visible;
+    }
+
+}

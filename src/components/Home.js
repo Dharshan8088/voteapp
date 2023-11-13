@@ -8,7 +8,7 @@ function Home() {
 
   return (
     <>
-      <h1>Auth0 Login</h1>
+      
       {err && <p>Authentication Error</p>}
       {!err && isLoading && <p>Loading...</p>}
       {!err && !isLoading && (

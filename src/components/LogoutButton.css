@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.sign-out-button,.sign-in-button {
+    all:unset;
+    color:black;
+    margin-left: 5%;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.sign-out-button:hover,.sign-in-button:hover{
+    color:white;
+}
+
+
+.navBar{
+    width:100vw;
+}
+.navbar-head{
+    font-size: 1.5rem;
+    color: green;
+    font-weight: 600;
+}
+
+.navbar-text{
+    font-size: 1.2rem;
+    color: black 0.8;
+
+    
+}
+
+.navbar-text > a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.user-img{
+    border-radius: 50%;
+    margin-left: 4%;
+    width: 15%;
+}
+
+.instructions{
+    visibility: hidden;
+}
+
+.instructions1,.instructions2{
+    display: flex;
+    justify-content:flex-end;
+}
+
+.instructions1 > p > img{
+    width: 15%;
+    
+}
+
+.instructions1 > p{
+    margin-right:-3%;
+    margin-top: 1%;
+ 
+}
+
+.instructions2 > p{
+    margin-right:15%;
+    margin-top: -1%;
+}
+
+@media only screen and (min-width:992px){
+    .instructions{
+        visibility: visible;
+    }
+
+}
